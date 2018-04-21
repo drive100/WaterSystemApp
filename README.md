@@ -1,2 +1,3 @@
 # WaterSystemApp
 Android app that connects wirelessly using sockets to a server on a raspberry pi zero to control a watering system.
+The watering system uses moisture sensors to detect water moisture level in pots of soil, where if the moisture level detected is lower than a certain threshold the water pump will automatically turn on and once it reaches a certain moisture level the water pump automatically stops. The android app is able to control the watering system by connecting to the system, monitoring the moisture levels in realtime and able to turn the water pump on and off using buttons. 
